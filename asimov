@@ -26,7 +26,8 @@ readonly FILEPATHS=(
     "Carthage ../Cartfile"
     "Pods ../Podfile"
     ".build ../Package.swift"
-    "packages ../*.sln"
+    "packages ../.gitignore" # hacky
+    "packages ../paket.dependencies"
 )
 
 # Given a directory path, determine if the corresponding file (relative
